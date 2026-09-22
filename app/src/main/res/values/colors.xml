@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="forest_deep">#0D1F1A</color>
+    <color name="forest_mid">#163028</color>
+    <color name="forest_light">#1E4035</color>
+    <color name="moss">#2D5A4A</color>
+    <color name="brass">#B5873A</color>
+    <color name="brass_light">#D4A853</color>
+    <color name="brass_pale">#EDD28A</color>
+    <color name="ivory">#F7F0E0</color>
+    <color name="ivory_dark">#E8DEC8</color>
+    <color name="rust_accent">#8B3A2A</color>
+    <color name="rust_light">#C0503A</color>
+    <color name="text_ivory">#F2EBD9</color>
+    <color name="text_moss">#4A7A65</color>
+    <color name="divider_brass">#7A5A22</color>
+</resources>

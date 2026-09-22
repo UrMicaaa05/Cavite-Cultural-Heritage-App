@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/forest_deep">
+
+    <!-- Header bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/forest_mid"
+        android:paddingTop="32dp"
+        android:paddingBottom="16dp"
+        android:paddingHorizontal="20dp">
+
+        <!-- Back button -->
+        <LinearLayout
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingVertical="2dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="←"
+                android:textColor="@color/brass_light"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  BACK"
+                android:textColor="@color/brass_light"
+                android:textSize="9sp"
+                android:letterSpacing="0.25"
+                android:fontFamily="serif"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NATIONAL HISTORICAL COMMISSION"
+            android:textColor="@color/brass"
+            android:textSize="9sp"
+            android:letterSpacing="0.2"
+            android:fontFamily="serif"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cultural Heritage Sites"
+            android:textColor="@color/ivory"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="of Cavite"
+            android:textColor="@color/brass_light"
+            android:textSize="14sp"
+            android:fontFamily="serif"
+            android:textStyle="italic"
+            android:layout_marginBottom="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_brass"/>
+    </LinearLayout>
+
+    <!-- Site list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_sites"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="16dp"
+        android:clipToPadding="false"/>
+
+</LinearLayout>

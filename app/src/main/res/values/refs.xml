@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="bundok_nagpatong">@drawable/bundoknagpatong</drawable>
+    <drawable name="sta_cruz_tanza">@drawable/stacruztanza</drawable>
+    <drawable name="place_felipe_calderon">@drawable/felipecalderon</drawable>
+    <drawable name="place_cavite_national_hs">@drawable/cnhs</drawable>
+    <drawable name="place_labintatlong_martir">@drawable/labintatlongmartirngprobinsyangcavite</drawable>
+    <drawable name="place_proclamation_site">@drawable/siteoftheproclamationofphilippineindependence</drawable>
+    <drawable name="place_bahay_bonifacio">@drawable/bahaynapinaglitisanniandrescavite</drawable>
+    <drawable name="place_fort_san_felipe">@drawable/fortsanfelipecavite</drawable>
+    <drawable name="place_aguinaldo_shrine">@drawable/emilioaguinaldoshrine</drawable>
+    <drawable name="place_baldomero_house">@drawable/angbahaynibaldomero</drawable>
+    <drawable name="place_tejeros_convention">@drawable/tejeros</drawable>
+    <drawable name="place_battle_alapan">@drawable/alapanbattle</drawable>
+    <drawable name="place_sarayba_house">@drawable/saraybahouse</drawable>
+    <drawable name="place_arsenal_imus">@drawable/arsenalngimuscavite</drawable>
+    <drawable name="place_simbahan_kawit">@drawable/simbahanngkawit</drawable>
+    <drawable name="place_pamahalaang_kawit">@drawable/pamahalaanbayanngkawitcavite</drawable>
+    <drawable name="place_katedral_imus">@drawable/katedralngimuscavite</drawable>
+    <drawable name="place_tirona_marker">@drawable/heneralcandidtriatirona</drawable>
+    <drawable name="place_org_revolutionary_gov">@drawable/orgkineme</drawable>
+    <drawable name="place_labanan_imus">@drawable/labanansaimuscavite</drawable>
+    <drawable name="place_corregidor">@drawable/corregidor</drawable>
+    <drawable name="place_ermita_porta_baga">@drawable/ermita</drawable>
+    <drawable name="place_casa_hacienda_naic">@drawable/naic</drawable>
+    <drawable name="place_bridge_isabel">@drawable/bridgeofisabel</drawable>
+    <drawable name="place_simbahan_gen_trias">@drawable/simbahannggeneraltrias</drawable>
+    <drawable name="place_tagaytay_ridge">@drawable/tagaytayridgelandingcavite</drawable>
+    <drawable name="place_aguinaldo_famy">@drawable/emilioaguinaldoyfamy</drawable>
+    <drawable name="place_pagpupulong_bacoor">@drawable/pagpupulong</drawable>
+    <drawable name="place_simbahan_dasmarinas">@drawable/simbahanngdasmarinas</drawable>
+    <drawable name="place_baldomero_marker">@drawable/baldomeroaguinaldoybaloy</drawable>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="12dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/tv_site_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ivory"
+        android:textSize="13sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/tv_site_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_moss"
+        android:textSize="11sp"
+        android:fontFamily="serif"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider_brass"
+        android:alpha="0.4"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

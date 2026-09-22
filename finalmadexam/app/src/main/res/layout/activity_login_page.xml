@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/forest_deep">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingHorizontal="28dp"
+        android:paddingTop="52dp"
+        android:paddingBottom="48dp">
+
+        <!-- Back button -->
+        <LinearLayout
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start|center_vertical"
+            android:layout_marginBottom="24dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="←"
+                android:textColor="@color/brass_light"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  BACK"
+                android:textColor="@color/brass_light"
+                android:textSize="9sp"
+                android:letterSpacing="0.25"
+                android:fontFamily="serif"/>
+        </LinearLayout>
+
+        <!-- Top label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NATIONAL HISTORICAL COMMISSION OF THE PHILIPPINES"
+            android:textColor="@color/brass"
+            android:gravity="center"
+            android:textSize="9sp"
+            android:letterSpacing="0.25"
+            android:fontFamily="serif"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back"
+            android:textColor="@color/ivory"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in to continue"
+            android:textColor="@color/brass_light"
+            android:textSize="16sp"
+            android:fontFamily="serif"
+            android:textStyle="italic"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Divider -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="40dp">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/divider_brass"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ◆  "
+                android:textColor="@color/brass"
+                android:textSize="12sp"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/divider_brass"/>
+        </LinearLayout>
+
+        <!-- Phone label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PHONE NUMBER"
+            android:textColor="@color/brass"
+            android:textSize="10sp"
+            android:letterSpacing="0.2"
+            android:fontFamily="serif"
+            android:layout_marginBottom="6dp"/>
+
+        <!-- Phone input -->
+        <EditText
+            android:id="@+id/aadhar"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Enter your registered phone number"
+            android:inputType="number"
+            android:importantForAutofill="no"
+            android:textColor="@color/ivory"
+            android:textColorHint="@color/text_moss"
+            android:textSize="14sp"
+            android:fontFamily="serif"
+            android:paddingHorizontal="16dp"
+            android:background="@drawable/bg_input_field"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Login button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="LOGIN"
+            android:textColor="@color/forest_deep"
+            android:textSize="12sp"
+            android:letterSpacing="0.2"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:background="@drawable/bg_button_brass"
+            android:stateListAnimator="@null"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© https://philhistoricsites.nhcp.gov.ph/"
+            android:textColor="@color/text_moss"
+            android:textSize="11sp"
+            android:fontFamily="serif"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer gold circle ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0"
+        android:strokeWidth="2"
+        android:strokeColor="#B5873A"/>
+
+    <!-- Inner thin ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+        android:strokeWidth="0.8"
+        android:strokeColor="#7A5A22"/>
+
+    <!-- Location pin shape — filled gold -->
+    <path
+        android:fillColor="#B5873A"
+        android:pathData="M54,28
+                          C44.6,28 37,35.6 37,45
+                          C37,57 54,72 54,72
+                          C54,72 71,57 71,45
+                          C71,35.6 63.4,28 54,28Z"/>
+
+    <!-- Pin inner circle — dark green -->
+    <path
+        android:fillColor="#0D1F1A"
+        android:pathData="M54,45m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0"/>
+
+    <!-- Pin inner circle ring — brass -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,45m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0"
+        android:strokeWidth="1"
+        android:strokeColor="#D4A853"/>
+
+    <!-- Small diamond ornament top -->
+    <path
+        android:fillColor="#D4A853"
+        android:pathData="M54,20L56,24L54,26L52,24Z"/>
+
+    <!-- Small diamond ornament bottom -->
+    <path
+        android:fillColor="#D4A853"
+        android:pathData="M54,80L56,76L54,74L52,76Z"/>
+
+    <!-- Small diamond ornament left -->
+    <path
+        android:fillColor="#D4A853"
+        android:pathData="M18,54L22,52L24,54L22,56Z"/>
+
+    <!-- Small diamond ornament right -->
+    <path
+        android:fillColor="#D4A853"
+        android:pathData="M90,54L86,52L84,54L86,56Z"/>
+
+</vector>

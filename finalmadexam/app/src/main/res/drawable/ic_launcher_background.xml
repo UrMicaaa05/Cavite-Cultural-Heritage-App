@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep forest background -->
+    <path
+        android:fillColor="#0D1F1A"
+        android:pathData="M0,0h108v108h-108z"/>
+
+    <!-- Subtle grid lines like an old map -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,27L108,27"
+        android:strokeWidth="0.5"
+        android:strokeColor="#1A3D30"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,54L108,54"
+        android:strokeWidth="0.5"
+        android:strokeColor="#1A3D30"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,81L108,81"
+        android:strokeWidth="0.5"
+        android:strokeColor="#1A3D30"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M27,0L27,108"
+        android:strokeWidth="0.5"
+        android:strokeColor="#1A3D30"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,0L54,108"
+        android:strokeWidth="0.5"
+        android:strokeColor="#1A3D30"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M81,0L81,108"
+        android:strokeWidth="0.5"
+        android:strokeColor="#1A3D30"/>
+
+    <!-- Corner ornaments -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M4,4L18,4L18,6L6,6L6,18L4,18Z"
+        android:strokeWidth="0"
+        android:strokeColor="#00000000"/>
+    <path
+        android:fillColor="#B5873A"
+        android:pathData="M4,4L18,4L18,6L6,6L6,18L4,18Z"/>
+    <path
+        android:fillColor="#B5873A"
+        android:pathData="M104,4L90,4L90,6L102,6L102,18L104,18Z"/>
+    <path
+        android:fillColor="#B5873A"
+        android:pathData="M4,104L18,104L18,102L6,102L6,90L4,90Z"/>
+    <path
+        android:fillColor="#B5873A"
+        android:pathData="M104,104L90,104L90,102L102,102L102,90L104,90Z"/>
+
+    <!-- Outer brass border -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M2,2L106,2L106,106L2,106Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#B5873A"/>
+
+</vector>

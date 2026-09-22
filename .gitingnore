@@ -1,0 +1,26 @@
+*.iml
+
+.gradle
+/local.properties
+
+# Android Studio
+/.idea/
+.idea/
+
+# Build files
+/build
+*/build/
+
+# Captures and native build files
+/captures
+.externalNativeBuild
+.cxx
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Large project archive
+finalmadexam2

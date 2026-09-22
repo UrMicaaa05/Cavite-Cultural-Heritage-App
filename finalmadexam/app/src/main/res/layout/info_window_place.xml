@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Custom info window shown when a heritage map marker is tapped.
+    CustomInfoWindowAdapter inflates this and renders it as a bitmap.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/forest_deep"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/iw_photo"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:scaleType="centerCrop"
+        android:background="@color/forest_mid"
+        android:visibility="gone"/>
+
+</LinearLayout>
