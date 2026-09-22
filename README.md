@@ -28,15 +28,7 @@ The application displays information about heritage sites and uses the Google Ma
 - Bluetooth
 - Gradle
 
-## 📸 Application Preview
 
-### Home Screen
-
-
-
-### Heritage Site Map
-
-![Heritage Site Map](screenshots/heritage-site.png)
 
 ## 🎯 Project Purpose
 
